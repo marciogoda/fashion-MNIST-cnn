@@ -9,6 +9,8 @@ verify_ssl = true
 tensorflow = "==2.0.0-alpha0"
 matplotlib = "*"
 pillow = "*"
+scipy = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
