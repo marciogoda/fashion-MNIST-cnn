@@ -11,6 +11,10 @@ matplotlib = "*"
 pillow = "*"
 scipy = "*"
 requests = "*"
+flask = "*"
+flask-restful = "*"
+jsonify = "*"
+urllib = "*"
 
 [requires]
 python_version = "3.7"
