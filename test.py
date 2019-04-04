@@ -25,7 +25,7 @@ imarr2 = np.array(inverted_image)
 
 imarr3 = imarr2 / 255.0
 
-model = keras.models.load_model('mnist.h5')
+model = keras.models.load_model('./models/mnist.h5')
 
 test_image = imarr2.reshape(1,28,28,1)
 

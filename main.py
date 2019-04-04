@@ -71,7 +71,7 @@ test_loss, test_acc = model.evaluate(test_images, test_labels, callbacks=[tb_cal
 
 print('Test accuracy:', test_acc)
 
-model.save('mnist.h5')
+model.save('./models/mnist.h5')
 
 
 
